@@ -1,0 +1,6 @@
+framework module Pods_trash_sorter {
+  umbrella header "Pods-trash-sorter-umbrella.h"
+
+  export *
+  module * { export * }
+}
