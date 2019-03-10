@@ -133,8 +133,8 @@ class ViewController: UIViewController {
             let headers = ["Authorization": "...",
                            "X-Storage-Id": "..."]
             
-//            let parameters = ["fileItems[0].replacing": "true",
-//                              "fileItems[0].path": "/path/something"]
+            let parameters = ["fileItems[0].replacing": "true",
+                              "fileItems[0].path": "/path/something"]
             
             Alamofire.upload(multipartFormData: { form in
                 
@@ -143,11 +143,11 @@ class ViewController: UIViewController {
                             fileName: "file1.png",
                             mimeType: "image/png")
                 
-//                parameters.forEach({
-//                    form.append($0.value.data(using: .utf8)!, withName: $0.key)
-//                })
+                parameters.forEach({
+                    form.append($0.value.data(using: .utf8)!, withName: $0.key)
+                })
                 
-            }, to: "http://127.0.0.1:9000/upload", method: .post, headers: headers) { result in
+            }, to: "https://menlo--rafaelcenzano.repl.co/upload", method: .post, headers: headers) { result in
                 
                 //switch result { ... }
                 

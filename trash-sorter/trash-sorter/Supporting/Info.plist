@@ -6,7 +6,7 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>http://127.0.0.1:9000/</key>
+			<key>https://winter-jet-234107.appspot.com</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>
