@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FFBFDCC99F5C5CC0724A4A77AA4F0A79"
+               BlueprintIdentifier = "AFA31ADA984625AB7D4E024716D994FA"
                BuildableName = "Pods_trash_sorter.framework"
                BlueprintName = "Pods-trash-sorter"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFBFDCC99F5C5CC0724A4A77AA4F0A79"
+            BlueprintIdentifier = "AFA31ADA984625AB7D4E024716D994FA"
             BuildableName = "Pods_trash_sorter.framework"
             BlueprintName = "Pods-trash-sorter"
             ReferencedContainer = "container:Pods.xcodeproj">

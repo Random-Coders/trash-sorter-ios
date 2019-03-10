@@ -1,3 +1,38 @@
-PODFILE CHECKSUM: 66785dee761b7d95ccf629ebf0cc22ebcc91ab84
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.0)
+  - Clarifai (2.3.2):
+    - AFNetworking (~> 3.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Clarifai
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - Clarifai
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Clarifai: 6d6cce2b31aefcf33893f2c3a18588b266771d11
+
+PODFILE CHECKSUM: 2e7d6c3ad49563bfbdb9541558dc01c929e57215
 
 COCOAPODS: 1.5.3
